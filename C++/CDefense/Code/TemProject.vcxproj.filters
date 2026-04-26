@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="KLM">
+      <UniqueIdentifier>{8d84cfcb-da40-452b-b3ca-68ce18fafbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{b3270d06-d238-4218-a033-8d0c8b9fe2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\cpp">
+      <UniqueIdentifier>{982f7b00-e4e8-4b09-b204-11ae379318b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Header">
+      <UniqueIdentifier>{21d26b20-2e69-4609-aa76-b268ac7ebec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Manager">
+      <UniqueIdentifier>{0cdf9b80-0afc-4ca1-ba11-c69ae5287751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Scene">
+      <UniqueIdentifier>{273a47a5-014d-4eb6-a022-ea7cac31f22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03Header">
+      <UniqueIdentifier>{8aa06be9-3e0e-49cd-aae8-3d054e5d5804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04Object">
+      <UniqueIdentifier>{173d0b56-937c-4143-b41d-228bd1dcff50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00Core">
+      <UniqueIdentifier>{e3b92194-4d43-4d61-895c-53906c83ed54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05Sytem">
+      <UniqueIdentifier>{6db88f1e-b33f-4636-b3b1-b43024a57884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04Object\Bullet">
+      <UniqueIdentifier>{086fef23-136e-4b12-acea-5a68074657f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyController.cpp">
+      <Filter>01Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>01Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>02Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>02Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>00Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>00Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>04Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoScene.cpp">
+      <Filter>02Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AsciiObjects.cpp">
+      <Filter>04Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>04Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>05Sytem</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSystem.cpp">
+      <Filter>05Sytem</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>04Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyController.h">
+      <Filter>01Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>01Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>02Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>03Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>02Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>00Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Single.h">
+      <Filter>00Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>04Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoScene.h">
+      <Filter>02Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AsciiObjects.h">
+      <Filter>04Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>04Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>05Sytem</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSystem.h">
+      <Filter>05Sytem</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>04Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+  </ItemGroup>
+</Project>
