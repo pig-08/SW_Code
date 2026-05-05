@@ -8,7 +8,7 @@ using static UnityEngine.Rendering.DebugUI;
 
 namespace SW.Code.Main
 {
-    public class MaiinUi : MonoBehaviour
+    public class MainUi : MonoBehaviour
     {
         [SerializeField] private UiInputSO inputSO;
         [SerializeField] private SoundManager soundManager;
